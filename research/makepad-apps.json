@@ -1,0 +1,482 @@
+[
+  {
+    "name": "ai-hub",
+    "path": "apps/ai-hub",
+    "sha": "219a54abd08feefd09f696eb9a3484c95e2b559c",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/ai-hub?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/ai-hub",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/219a54abd08feefd09f696eb9a3484c95e2b559c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/ai-hub?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/219a54abd08feefd09f696eb9a3484c95e2b559c",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/ai-hub"
+    }
+  },
+  {
+    "name": "aichat",
+    "path": "apps/aichat",
+    "sha": "f397be0ddca25b6a4e9228830fd6b4771ebd826d",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/aichat?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/aichat",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/f397be0ddca25b6a4e9228830fd6b4771ebd826d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/aichat?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/f397be0ddca25b6a4e9228830fd6b4771ebd826d",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/aichat"
+    }
+  },
+  {
+    "name": "asset-server",
+    "path": "apps/asset-server",
+    "sha": "1625e408c8f853c71367e191d63592732f415e2e",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/asset-server?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/asset-server",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/1625e408c8f853c71367e191d63592732f415e2e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/asset-server?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/1625e408c8f853c71367e191d63592732f415e2e",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/asset-server"
+    }
+  },
+  {
+    "name": "asset-ui",
+    "path": "apps/asset-ui",
+    "sha": "81d795b4ddab29c3ada5dc9b2272b3a47ac249a8",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/asset-ui?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/asset-ui",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/81d795b4ddab29c3ada5dc9b2272b3a47ac249a8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/asset-ui?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/81d795b4ddab29c3ada5dc9b2272b3a47ac249a8",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/asset-ui"
+    }
+  },
+  {
+    "name": "browser",
+    "path": "apps/browser",
+    "sha": "1c4cab68f1507fa9ce5c54b3b09cc74b0e1b8419",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/browser?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/browser",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/1c4cab68f1507fa9ce5c54b3b09cc74b0e1b8419",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/browser?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/1c4cab68f1507fa9ce5c54b3b09cc74b0e1b8419",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/browser"
+    }
+  },
+  {
+    "name": "calculator",
+    "path": "apps/calculator",
+    "sha": "54e922308d6b050d3ff1a09b140e9c9ec815ab65",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/calculator?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/calculator",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/54e922308d6b050d3ff1a09b140e9c9ec815ab65",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/calculator?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/54e922308d6b050d3ff1a09b140e9c9ec815ab65",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/calculator"
+    }
+  },
+  {
+    "name": "calendar",
+    "path": "apps/calendar",
+    "sha": "0dbf87aa9e3ebea1f1d1e879173859c0ec544fd8",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/calendar?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/calendar",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/0dbf87aa9e3ebea1f1d1e879173859c0ec544fd8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/calendar?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/0dbf87aa9e3ebea1f1d1e879173859c0ec544fd8",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/calendar"
+    }
+  },
+  {
+    "name": "clock",
+    "path": "apps/clock",
+    "sha": "8ba6948f89496ffb540d2fa36d79de23c1cb0035",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/clock?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/clock",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/8ba6948f89496ffb540d2fa36d79de23c1cb0035",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/clock?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/8ba6948f89496ffb540d2fa36d79de23c1cb0035",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/clock"
+    }
+  },
+  {
+    "name": "director",
+    "path": "apps/director",
+    "sha": "fd5e6b2d90a12e39ce866a94d7d4793d06607da8",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/director?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/director",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/fd5e6b2d90a12e39ce866a94d7d4793d06607da8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/director?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/fd5e6b2d90a12e39ce866a94d7d4793d06607da8",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/director"
+    }
+  },
+  {
+    "name": "fab",
+    "path": "apps/fab",
+    "sha": "0b7f7a672bf12d4aa931d216cf13b09023097341",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/fab?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/fab",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/0b7f7a672bf12d4aa931d216cf13b09023097341",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/fab?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/0b7f7a672bf12d4aa931d216cf13b09023097341",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/fab"
+    }
+  },
+  {
+    "name": "fabric",
+    "path": "apps/fabric",
+    "sha": "38862520ab0be6b76509759a11567fe9d74a3cbd",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/fabric?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/fabric",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/38862520ab0be6b76509759a11567fe9d74a3cbd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/fabric?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/38862520ab0be6b76509759a11567fe9d74a3cbd",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/fabric"
+    }
+  },
+  {
+    "name": "files",
+    "path": "apps/files",
+    "sha": "46fda27ea4da05bc86d1b9f7e9a0fcc217402e50",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/files?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/files",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/46fda27ea4da05bc86d1b9f7e9a0fcc217402e50",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/files?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/46fda27ea4da05bc86d1b9f7e9a0fcc217402e50",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/files"
+    }
+  },
+  {
+    "name": "finance",
+    "path": "apps/finance",
+    "sha": "7f20a6c6130e832b160ced44ce753e732750ca82",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/finance?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/finance",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/7f20a6c6130e832b160ced44ce753e732750ca82",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/finance?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/7f20a6c6130e832b160ced44ce753e732750ca82",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/finance"
+    }
+  },
+  {
+    "name": "flow-server",
+    "path": "apps/flow-server",
+    "sha": "46eb775f68c0e811dbb2f7fe16342cff1fd5bbe6",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/flow-server?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/flow-server",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/46eb775f68c0e811dbb2f7fe16342cff1fd5bbe6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/flow-server?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/46eb775f68c0e811dbb2f7fe16342cff1fd5bbe6",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/flow-server"
+    }
+  },
+  {
+    "name": "image",
+    "path": "apps/image",
+    "sha": "6845ed8c825e8a1493c2df1c4f3b1c6d8546b617",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/image?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/image",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/6845ed8c825e8a1493c2df1c4f3b1c6d8546b617",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/image?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/6845ed8c825e8a1493c2df1c4f3b1c6d8546b617",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/image"
+    }
+  },
+  {
+    "name": "mail",
+    "path": "apps/mail",
+    "sha": "9548789d6e77f2d509db73d389827c24ed32b3de",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/mail?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/mail",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/9548789d6e77f2d509db73d389827c24ed32b3de",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/mail?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/9548789d6e77f2d509db73d389827c24ed32b3de",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/mail"
+    }
+  },
+  {
+    "name": "mixer",
+    "path": "apps/mixer",
+    "sha": "1c1208f04041c4d49b3ed6f75b76c25a5806a348",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/mixer?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/mixer",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/1c1208f04041c4d49b3ed6f75b76c25a5806a348",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/mixer?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/1c1208f04041c4d49b3ed6f75b76c25a5806a348",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/mixer"
+    }
+  },
+  {
+    "name": "notes",
+    "path": "apps/notes",
+    "sha": "3c6633b3580a3e8e21e49832d885dc85017c88ea",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/notes?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/notes",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/3c6633b3580a3e8e21e49832d885dc85017c88ea",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/notes?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/3c6633b3580a3e8e21e49832d885dc85017c88ea",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/notes"
+    }
+  },
+  {
+    "name": "pdf",
+    "path": "apps/pdf",
+    "sha": "bb291e548d134d455fdd9d4e5e762157923013fe",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/pdf?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/pdf",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/bb291e548d134d455fdd9d4e5e762157923013fe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/pdf?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/bb291e548d134d455fdd9d4e5e762157923013fe",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/pdf"
+    }
+  },
+  {
+    "name": "photos",
+    "path": "apps/photos",
+    "sha": "31f23bfa59ed937d8ebbf559678213453d6397c4",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/photos?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/photos",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/31f23bfa59ed937d8ebbf559678213453d6397c4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/photos?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/31f23bfa59ed937d8ebbf559678213453d6397c4",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/photos"
+    }
+  },
+  {
+    "name": "reminders",
+    "path": "apps/reminders",
+    "sha": "c9988e77cab1ae94aabf7418f9f5e9c50249dfce",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/reminders?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/reminders",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/c9988e77cab1ae94aabf7418f9f5e9c50249dfce",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/reminders?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/c9988e77cab1ae94aabf7418f9f5e9c50249dfce",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/reminders"
+    }
+  },
+  {
+    "name": "route",
+    "path": "apps/route",
+    "sha": "90fad5f27cbf3ca26fb02fa57a33bae22d481c77",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/route?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/route",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/90fad5f27cbf3ca26fb02fa57a33bae22d481c77",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/route?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/90fad5f27cbf3ca26fb02fa57a33bae22d481c77",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/route"
+    }
+  },
+  {
+    "name": "score",
+    "path": "apps/score",
+    "sha": "30e9b3990e5e80f6fad8a6b63e4acacfe7eabab1",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/score?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/score",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/30e9b3990e5e80f6fad8a6b63e4acacfe7eabab1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/score?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/30e9b3990e5e80f6fad8a6b63e4acacfe7eabab1",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/score"
+    }
+  },
+  {
+    "name": "sheets",
+    "path": "apps/sheets",
+    "sha": "518008b423a31f8348e01fc65fbf81b084754e8e",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/sheets?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/sheets",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/518008b423a31f8348e01fc65fbf81b084754e8e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/sheets?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/518008b423a31f8348e01fc65fbf81b084754e8e",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/sheets"
+    }
+  },
+  {
+    "name": "task",
+    "path": "apps/task",
+    "sha": "f367db782a95d7de610f1eaa47df2491874b70ef",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/task?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/task",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/f367db782a95d7de610f1eaa47df2491874b70ef",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/task?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/f367db782a95d7de610f1eaa47df2491874b70ef",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/task"
+    }
+  },
+  {
+    "name": "terminal",
+    "path": "apps/terminal",
+    "sha": "56564d65f22d76dec5995440e8e80f5ae1fb99ac",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/terminal?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/terminal",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/56564d65f22d76dec5995440e8e80f5ae1fb99ac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/terminal?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/56564d65f22d76dec5995440e8e80f5ae1fb99ac",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/terminal"
+    }
+  },
+  {
+    "name": "video",
+    "path": "apps/video",
+    "sha": "71fc9b390853d0e48daafb18937884a87c4d3304",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/video?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/video",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/71fc9b390853d0e48daafb18937884a87c4d3304",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/video?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/71fc9b390853d0e48daafb18937884a87c4d3304",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/video"
+    }
+  },
+  {
+    "name": "vj",
+    "path": "apps/vj",
+    "sha": "45af441dbd2a1bbd4765cf2acfa831f8bce75a85",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/vj?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/vj",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/45af441dbd2a1bbd4765cf2acfa831f8bce75a85",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/vj?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/45af441dbd2a1bbd4765cf2acfa831f8bce75a85",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/vj"
+    }
+  },
+  {
+    "name": "weather",
+    "path": "apps/weather",
+    "sha": "d74cb4c8ca84183d086dd2119cea049ed2707357",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/weather?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/weather",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/d74cb4c8ca84183d086dd2119cea049ed2707357",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/weather?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/d74cb4c8ca84183d086dd2119cea049ed2707357",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/weather"
+    }
+  },
+  {
+    "name": "wm",
+    "path": "apps/wm",
+    "sha": "b0b4befc306b8ae131af3692d05d754bc9d3757d",
+    "size": 0,
+    "url": "https://api.github.com/repos/makepad/makepad/contents/apps/wm?ref=work",
+    "html_url": "https://github.com/makepad/makepad/tree/work/apps/wm",
+    "git_url": "https://api.github.com/repos/makepad/makepad/git/trees/b0b4befc306b8ae131af3692d05d754bc9d3757d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/makepad/makepad/contents/apps/wm?ref=work",
+      "git": "https://api.github.com/repos/makepad/makepad/git/trees/b0b4befc306b8ae131af3692d05d754bc9d3757d",
+      "html": "https://github.com/makepad/makepad/tree/work/apps/wm"
+    }
+  }
+]

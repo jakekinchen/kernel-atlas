@@ -1,0 +1,10 @@
+{
+  "bytes": 4719743,
+  "files": 561,
+  "functions": 3199,
+  "namedCallSites": 12101,
+  "unresolvedCallSites": 9687,
+  "syntaxErrorNodes": 714,
+  "indexSeconds": 1.048581082955934,
+  "indexBytes": 962685
+}

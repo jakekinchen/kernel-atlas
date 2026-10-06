@@ -1,0 +1,14 @@
+{
+  "installedPath": "/Users/kelly/Applications/Kernel Atlas.app",
+  "bundleFilesVerified": 567,
+  "bundleBytes": 8260633,
+  "executableSHA256": "302701dcbccf3cbfe3709588e47b7db000193a7791e835dcc56dc62a756b0bf8",
+  "zipBytes": 3362876,
+  "sourceBytes": 4719743,
+  "idleSample": {
+    "cpuPercent": 0.0,
+    "rssKiB": 158672,
+    "note": "Installed build after interactive use, before caption-only update"
+  },
+  "finalChange": "Metric-aware caption and caption contrast; no renderer or indexing changes after 14-check native verification."
+}

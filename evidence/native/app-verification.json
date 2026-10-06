@@ -1,0 +1,32 @@
+{
+  "allPassed" : true,
+  "checks" : {
+    "all_files_have_geometry" : true,
+    "batched_city_mesh" : true,
+    "corpus_under_20_decimal_MB" : true,
+    "cross_file_arcs" : true,
+    "function_calls" : true,
+    "geometry_hit_testing" : true,
+    "idle_on_demand" : true,
+    "journey_symbols_exist" : true,
+    "map_flattens_geometry" : true,
+    "metal_renderer" : true,
+    "source_loading" : true,
+    "symbol_search" : true
+  },
+  "continuousRendering" : false,
+  "device" : "Apple M3 Ultra",
+  "displayRefreshFPS" : "Not inferred from offscreen timings",
+  "indexDecodeMs" : 24.286031723022461,
+  "meshBuildMs" : 11.273026466369629,
+  "renderAPI" : "Metal",
+  "renderBenchmark" : {
+    "maxMs" : 3.8919448852539062,
+    "medianMs" : 2.6839971542358398,
+    "method" : "SCNRenderer completed 1440x1000 snapshots; 4x MSAA; 3 warmups; 24 camera updates; includes readback",
+    "minMs" : 2.4099349975585938,
+    "p95Ms" : 3.0800104141235352,
+    "samples" : 24
+  },
+  "verificationSeconds" : 0.32373189926147461
+}

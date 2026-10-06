@@ -1,0 +1,202 @@
+# Makepad
+
+## Socials
+
+- Discord: https://discord.gg/adqBRq7Ece
+- Rik Arends: https://twitter.com/rikarends
+
+Makepad is an AI-accelerated application and game development environment for Rust. It combines a high-performance UI runtime, a live-editable design language, and a fast iteration loop so you can build native and web apps with a tight feedback cycle.
+
+It also has a large set of AI backends integrated for embedding llms or generative AI models inside applications or run them easily on local hardware
+
+This repository contains the core engine, widgets, tools, and examples.
+
+## Building the VJ example app
+
+Rust stable is the toolchain everywhere: https://rustup.rs
+
+**macOS** — install Rust and the Xcode command line tools, then:
+
+```bash
+cargo run -p makepad-vj --release
+```
+
+**Windows** — install Rust, Visual Studio 2022 (Desktop development with
+C++), and the NVIDIA CUDA toolkit (any recent version; the build finds it
+by itself). Then the same `cargo run -p makepad-vj --release`. Without a
+CUDA toolkit the build still links — the GPU-AI lanes just stub out.
+
+**Linux** — the VJ currently only compiles with CUDA present, and the
+lane is not regularly tested; expect to fix small things. The errors are
+shallow — point an AI coding assistant at them and it will get you
+building.
+
+**What CUDA is for**: the VJ uses the GPU-AI lane for audio source
+separation (BS-RoFormer splits a track into vocals/drums/bass/other,
+which drives the stem mutes and the karaoke word timing). The app runs
+fine without it — those features just stay off.
+
+**Model files install from inside the app.** The music decks use two
+MIT-licensed model files: the BS-RoFormer stem splitter (527 MB) and the
+Whisper large-v3-turbo transcriber (1.6 GB, karaoke word timing). On a
+machine that lacks them the music page shows an **INSTALL MODELS** row
+under the track explorer — accept the licenses and the app downloads both
+(resumable, sha256-verified) into `local/` in the checkout. Until then the
+VJ reports "stems: model not installed" and carries on. Existing copies
+are found via `VJ_STEMS_CKPT` / `MAKEPAD_VOICE_MODEL` or the standard
+`local/` paths.
+
+## What Makepad Is
+
+- A cross-platform UI runtime for native and web targets.
+- A Rust-first framework with a scriptable UI DSL.
+- A studio app for running, inspecting, and iterating on examples and projects.
+- An AI-accelerated workflow: structure and tooling aimed at making code generation, refactoring, and iteration faster and safer.
+- Simple forward 3D renderer for making games on Quest and all other supported platforms
+
+## Features
+
+- Streaming Splash: fast, animated, streaming UI example.
+- Script Engine: live-editable UI DSL and runtime script integration.
+- 3D Rendering: glTF example with GPU rendering.
+- Maps: built-in map rendering with downloadable tiles.
+- Voice Analysis: built-in voice support with Whisper model downloads.
+- GPU-accelerated 2D and 3D rendering.
+- AI automation inside Studio to control and inspect UI.
+
+## Prerequisites
+
+- Rust toolchain (stable works for native).
+- For non-standard targets (iOS, tvOS, Android, wasm), install the Makepad build tool:
+
+```bash
+cargo install --path=./tools/cargo_makepad
+```
+
+Then install target toolchains as needed:
+
+```bash
+cargo makepad wasm install-toolchain
+cargo makepad apple ios install-toolchain
+cargo makepad apple tvos install-toolchain
+cargo makepad android --abi=all install-toolchain
+```
+
+## Linux Dependencies
+
+Linux build/runtime dependencies are listed in `./tools/linux_deps.sh`:
+Use the apt-get command below, or run the script on Ubuntu/WSL2:
+
+```bash
+sudo apt-get update && sudo apt-get install -y --no-install-recommends build-essential pkg-config clang ca-certificates libssl-dev libx11-dev libxcursor-dev libxkbcommon-dev libxrandr-dev libxi-dev libxinerama-dev libasound2-dev libpulse-dev libwayland-dev wayland-protocols libegl1-mesa-dev libgl1-mesa-dev libgles2-mesa-dev libglx-dev libdrm-dev libgbm-dev libgl1-mesa-dri mesa-vulkan-drivers mesa-utils mesa-utils-extra x11-apps gstreamer1.0-tools gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-gl gstreamer1.0-alsa gstreamer1.0-pipewire libgstreamer1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-gl1.0-0
+```
+
+## Build And Run Makepad Studio
+
+Makepad Studio is the main entry point for exploring examples and iterating on UI.
+
+```bash
+cargo run -p makepad-director --release
+```
+
+If you want a local install (note: may lag the repo):
+
+```bash
+cargo install makepad-director
+```
+
+## Examples
+
+Run a few representative apps directly from the repo:
+
+```bash
+# Splash (simple animated demo)
+cargo run -p makepad-example-splash --release
+
+# 3D rendering (glTF)
+cargo run -p makepad-example-gltf --release
+
+# Maps
+cargo run -p makepad-example-map --release
+```
+
+## Maps And Voice Assets
+
+For built-in maps and voice support, download the assets first:
+
+```bash
+./tools/download_map.sh
+./tools/download_voice.sh
+```
+
+## Run A WASM App
+
+1. Install toolchain:
+
+```bash
+cargo makepad wasm install-toolchain
+```
+
+2. Run an example:
+
+```bash
+cargo makepad wasm run -p makepad-example-splash --release
+```
+
+For smaller shipped wasm output, use the shipping-size optimization pass. It keeps the post-link size reduction behavior and pairs well with the existing `small` profile:
+
+```bash
+cargo makepad wasm build -p makepad-example-splash --profile=small --strip
+```
+
+To split the wasm payloads, add `--split`. Bare `--split` uses an automatic cold-first policy: it first moves defer-safe cold functions into a secondary wasm so startup can begin on the primary first, and if there are no useful cold candidates it falls back to the normal function split. To override the function-splitting threshold directly:
+
+```bash
+cargo makepad wasm build -p makepad-example-splash --release --strip --split=200
+```
+
+For maximum size reduction, combine `--wasm-opt` (Binaryen IR optimization) and `--brotli` (compression). Install Binaryen for `--wasm-opt` (e.g. `brew install binaryen` or `apt install binaryen`):
+
+```bash
+cargo makepad wasm build -p makepad-example-splash --release --wasm-opt --strip --split --brotli
+```
+
+Notes:
+
+- `--strip` strips custom sections (names, producers, etc.) for smaller binaries.
+- `--strip-custom-sections` preserves the old behavior when you only want to remove custom sections.
+- `--wasm-opt` runs Binaryen `wasm-opt -Os` for IR-level optimization (optional; requires [Binaryen](https://github.com/WebAssembly/binaryen)).
+- `--brotli` compresses `.wasm` and assets with Brotli for delivery.
+- `--profile=small` uses smaller fonts and pairs well with `--strip`.
+- `--no-threads` trims the web thread bridge and thread exports when threading is disabled.
+- The wasm linker packs relocations before the post-link size and split passes.
+- `--split` emits a primary wasm plus secondary payloads (`.secondary.wasm`, `.data.bin`) and implies function splitting.
+- Bare `--split` uses an automatic cold-first split policy.
+- Auto mode defers the secondary when it finds defer-safe cold functions, otherwise falls back to the normal startup-path split.
+- `--split=200` switches to an explicit function-body threshold (bytes).
+
+3. Open:
+
+```text
+http://127.0.0.1:8010
+```
+
+## Run An Android App
+
+Plug in a device with developer mode enabled, then:
+
+1. Install toolchain:
+
+```bash
+cargo run -p cargo-makepad --release -- android --target=all toolchain-install
+```
+
+2. Run an example:
+
+```bash
+cargo run -p cargo-makepad --release -- android run -p makepad-example-ironfish
+```
+
+## Notes
+
+- Studio uses `cargo-makepad` internally for non-standard targets.
